@@ -22,6 +22,11 @@
             --yellow: #f9c20a;
             --green: #45a735;
             --blue: #0096d6;
+            --logo-burgundy: #521110;
+            --logo-red: #d73227;
+            --logo-orange: #e99923;
+            --logo-green: #92ba3e;
+            --logo-blue: #50a3d9;
             --shadow: 0 10px 30px rgba(31, 41, 55, 0.08);
         }
 
@@ -68,25 +73,26 @@
             display: inline-flex;
             align-items: baseline;
             justify-content: center;
-            margin-bottom: 8px;
-            font-size: 2rem;
-            font-weight: 800;
+            margin-bottom: 16px;
+            font-family: "Arial Rounded MT Bold", "Arial Black", Arial, sans-serif;
+            font-size: 4.75rem;
+            font-weight: 700;
             line-height: 1;
-            letter-spacing: -0.09em;
+            letter-spacing: -0.04em;
             text-transform: lowercase;
             user-select: none;
         }
 
         .brand-logo span:nth-child(1),
-        .brand-logo span:nth-child(2) { color: var(--red); }
-        .brand-logo span:nth-child(3) { color: var(--orange); }
-        .brand-logo span:nth-child(4) { color: var(--yellow); }
-        .brand-logo span:nth-child(5) { color: var(--green); }
-        .brand-logo span:nth-child(6),
-        .brand-logo span:nth-child(7) { color: var(--blue); }
+        .brand-logo span:nth-child(2) { color: var(--logo-burgundy); }
+        .brand-logo span:nth-child(3),
+        .brand-logo span:nth-child(4) { color: var(--logo-red); }
+        .brand-logo span:nth-child(5) { color: var(--logo-orange); }
+        .brand-logo span:nth-child(6) { color: var(--logo-green); }
+        .brand-logo span:nth-child(7) { color: var(--logo-blue); }
 
         .title {
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-weight: 800;
             letter-spacing: -0.04em;
         }
@@ -351,11 +357,12 @@
             }
 
             .brand-logo {
-                font-size: 1.8rem;
+                margin-bottom: 12px;
+                font-size: 3.25rem;
             }
 
             .title {
-                font-size: 1.8rem;
+                font-size: 1.75rem;
             }
 
             main {
