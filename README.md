@@ -15,12 +15,19 @@ python -m http.server 4173
 ## GitHub Pages에 배포하기
 
 1. GitHub에서 새 저장소를 만듭니다.
-2. 이 폴더의 `index.html`, `README.md`, `.nojekyll`을 저장소 최상위에 올립니다.
+2. 이 폴더의 전체 파일과 `assets` 폴더를 저장소 최상위에 올립니다.
 3. 저장소의 **Settings → Pages**로 이동합니다.
 4. **Build and deployment**에서 **Deploy from a branch**를 선택합니다.
 5. Branch를 `main`, 폴더를 `/(root)`로 선택하고 **Save**를 누릅니다.
 
 배포가 완료되면 `https://사용자이름.github.io/저장소이름/` 주소로 접속할 수 있습니다.
+
+## 스마트폰 홈 화면에 추가하기
+
+- **Android Chrome:** 사이트 아래의 `홈 화면에 추가` 버튼을 누른 뒤 설치 팝업에서 **설치**를 누릅니다.
+- **iPhone Safari:** 사이트 아래의 `홈 화면에 추가` 버튼을 누르고, 안내에 따라 **공유 → 홈 화면에 추가 → 추가**를 선택합니다.
+
+설치 후에는 일반 앱처럼 홈 화면 아이콘으로 실행할 수 있으며, 한 번 접속한 뒤에는 인터넷 연결이 불안정해도 계산기를 다시 열 수 있습니다.
 
 ## 계산 기준
 

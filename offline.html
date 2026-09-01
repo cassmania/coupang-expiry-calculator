@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#ffffff">
+    <title>오프라인 - 유통기한 계산기</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+            color: #1f2937;
+            background: #f6f8fb;
+        }
+        main {
+            width: min(100%, 380px);
+            padding: 28px;
+            border: 1px solid #dfe3e8;
+            border-radius: 16px;
+            background: #ffffff;
+            box-shadow: 0 10px 30px rgba(31, 41, 55, 0.08);
+            text-align: center;
+        }
+        h1 { margin: 0 0 10px; font-size: 1.4rem; }
+        p { margin: 0 0 20px; color: #6b7280; line-height: 1.6; }
+        button {
+            min-height: 44px;
+            padding: 0 18px;
+            border: 0;
+            border-radius: 10px;
+            color: #ffffff;
+            background: #d73227;
+            font: inherit;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>인터넷 연결을 확인해 주세요</h1>
+        <p>한 번 열었던 계산기는 오프라인에서도 사용할 수 있습니다. 연결 후 다시 시도해 주세요.</p>
+        <button type="button" onclick="location.reload()">다시 시도</button>
+    </main>
+</body>
+</html>
