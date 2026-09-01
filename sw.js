@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v2";
 const STATIC_CACHE = `expiry-calculator-static-${CACHE_VERSION}`;
 const DYNAMIC_CACHE = `expiry-calculator-dynamic-${CACHE_VERSION}`;
 const BASE_URL = new URL("./", self.location.href);
